@@ -1,0 +1,29 @@
+{
+  "links": [
+    {
+      "name": "Instagram",
+      "formal": false,
+      "bgColor": "#CC2366"
+    },
+    {
+      "name": "Twitter",
+      "formal": false,
+      "bgColor": "#1DA1F2"
+    },
+    {
+      "name": "VSCO",
+      "formal": false,
+      "bgColor": "#171717"
+    },
+    {
+      "name": "LinkedIn",
+      "formal": true,
+      "bgColor": "#0077B5"
+    },
+    {
+      "name": "GitHub",
+      "formal": true,
+      "bgColor": "#171515"
+    }
+  ]
+}
