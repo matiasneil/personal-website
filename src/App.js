@@ -18,8 +18,6 @@ function App() {
         </div>
 
         <div className="else-container">
-          {!formalMode && <h1 className="purple-rain-font">Mis redes</h1>}
-
           {formalMode && (
             <React.Fragment>
               <h1>Matías Neil</h1>
