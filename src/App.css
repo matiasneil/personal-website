@@ -1,16 +1,29 @@
 @font-face {
-  font-family: "rozhaone";
-  src: url(../public/fonts/rozhaone.ttf);
+  font-family: "spacemono";
+  src: url(../public/fonts/spacemono/bold.ttf);
+}
+
+@font-face {
+  font-family: "stilltim";
+  src: url(../public/fonts/stilltim.ttf);
 }
 
 body {
-  font-family: "rozhaone";
+  font-family: "spacemono";
 }
 
 h1,
 h2,
 h3 {
   margin: 0;
+}
+
+.purple-rain-font {
+  font-family: "stilltim";
+  letter-spacing: 2px;
+  font-size: 68px;
+  text-shadow: 1px 1px #cfc662;
+  color: #7b61ab;
 }
 
 .emoji {
@@ -36,5 +49,7 @@ h3 {
 }
 
 .pills-section {
+  display: flex;
+  flex-direction: column;
   margin-top: 20px;
 }

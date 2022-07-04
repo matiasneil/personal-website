@@ -1,6 +1,14 @@
 .pill-button {
+  background-color: #9663C4;
+  display: inline-block;
   padding: 10px 20px;
   border-radius: 30px;
-  color: #fff;
+  border-width: 0px;
   margin-bottom: 5px;
+  color: #fff;
+}
+
+.pill-button:hover {
+  background-color: black;
+  cursor: pointer;
 }

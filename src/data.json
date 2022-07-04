@@ -3,27 +3,32 @@
     {
       "name": "Instagram",
       "formal": false,
-      "bgColor": "#CC2366"
+      "bgColor": "#CC2366",
+      "url": "https://www.instagram.com/matiasneil_"
     },
     {
       "name": "Twitter",
       "formal": false,
-      "bgColor": "#1DA1F2"
+      "bgColor": "#1DA1F2",
+      "url": "https://twitter.com/matiasneil"
     },
     {
       "name": "VSCO",
       "formal": false,
-      "bgColor": "#171717"
+      "bgColor": "#171717",
+      "url": "https://vsco.co/matiasneil"
     },
     {
       "name": "LinkedIn",
       "formal": true,
-      "bgColor": "#0077B5"
+      "bgColor": "#0077B5",
+      "url": "https://www.linkedin.com/in/matiasneil"
     },
     {
       "name": "GitHub",
       "formal": true,
-      "bgColor": "#171515"
+      "bgColor": "#171515",
+      "url": "https://github.com/matiasneil"
     }
   ]
 }
