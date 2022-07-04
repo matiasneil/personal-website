@@ -21,7 +21,7 @@ h3 {
 .purple-rain-font {
   font-family: "stilltim";
   letter-spacing: 2px;
-  font-size: 68px;
+  font-size: 92px;
   text-shadow: 1px 1px #cfc662;
   color: #7b61ab;
 }
@@ -33,6 +33,13 @@ h3 {
 .container {
   display: flex;
   justify-content: center;
+}
+
+.purple-rain-bg {
+  background-image: url(./../public/img/purplerain.png);
+  background-position: top center;
+  background-size: cover;
+  height: 100vh;
 }
 
 .content {

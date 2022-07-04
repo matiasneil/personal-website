@@ -9,10 +9,10 @@ function App() {
   const [formalMode, setFormalMode] = useState(false);
 
   return (
-    <div className="container">
+    <div className={`container ${!formalMode && "purple-rain-bg"}`}>
       <div className="content">
         <div className="switch-container">
-          <p className="emoji">🍺</p>
+          <p className="emoji">☔</p>
           <Switch onChangeFn={setFormalMode}></Switch>
           <p className="emoji">💼</p>
         </div>
@@ -32,7 +32,7 @@ function App() {
                 <PillButton
                   class={link.class}
                   name={link.name}
-                  bgColor={link.bgColor}
+                  formalMode={formalMode}
                   url={link.url}
                   key={i}
                 />
