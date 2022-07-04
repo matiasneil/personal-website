@@ -2,7 +2,7 @@ import "./PillButton.css";
 
 function PillButton(props) {
   return (
-    <button className="pill-button" onClick={()=> window.open(props.url, "_blank")} style={{backgroundColor: `${props.formalMode ? "#333333" : "#9663C4"}`}}>
+    <button type="button" className={`pill-button ${props.formalMode ? "grey-bg" : "purple-bg"}`} onClick={()=> window.open(props.url, "_blank")}>
       <h3>{ props.name }</h3>
     </button>
   );

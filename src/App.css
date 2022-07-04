@@ -20,9 +20,9 @@ h3 {
 
 .purple-rain-font {
   font-family: "stilltim";
-  letter-spacing: 2px;
+  letter-spacing: 7px;
   font-size: 92px;
-  text-shadow: 1px 1px #cfc662;
+  text-shadow: 1px 1px #e6dc6e;
   color: #7b61ab;
 }
 
@@ -33,13 +33,18 @@ h3 {
 .container {
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .purple-rain-bg {
   background-image: url(./../public/img/purplerain.png);
   background-position: top center;
   background-size: cover;
-  height: 100vh;
+}
+
+.beige-bg {
+  background-color: #d8d6c8;
 }
 
 .content {
@@ -49,14 +54,21 @@ h3 {
 }
 
 .switch-container {
+  position: fixed;
+  top: 0px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
 }
 
-.pills-section {
+.else-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+.pills-section {
+  max-width: 280px;
   margin-top: 20px;
 }
